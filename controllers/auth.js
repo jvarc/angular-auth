@@ -95,7 +95,7 @@ const loginUsuario = async(req, res = response) =>{
 
         
     } catch (error) {
-        console.log('Surgio el error: ', error)
+        console.log('Surgio el error: ', error);
         return res.status(500).json({
             ok: false,
             msg: 'Comuniquese con el administrador'
